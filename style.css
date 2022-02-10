@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(95, 13, 74);
+    min-width: 300px;
+    font-family: 'Indie Flower', cursive;
+}
+nav {
+    background-color: rgb(129, 125, 126);
+    position: relative;
+    height: 14vh;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    min-height: 50px;
+    min-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+nav div {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 50%;   
+}
+nav div img {
+    width: auto;
+    height: 150%;
+    object-fit: cover;
+    object-position: 0 -15px;
+}
+.nav__ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    padding-left: 20px;
+   
+}
+.nav__ul li {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 30px;
+    min-height: 30px;
+ 
+}
+.nav__ul li img {
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#login {
+    border-radius: 20px;
+}
+.resumen {
+    height: 82vh;
+    border: 2px solid black;
+    border-radius: 5px / 10px;
+    min-height: 300px;
+}
+.container {
+    background-color: rgb(129, 125, 126);
+    position: relative;
+    width: auto;
+    height: 100%;     
+}
+.fondo {
+    height: 50%;
+}
+.fondo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    min-height: 170px;
+    border-bottom: 2px solid black;
+    
+}
+.foto {
+    position: absolute;
+    width: auto;
+    height: 45%;
+    border-radius: 50%;
+    border: 3px solid rgb(226, 23, 84);
+    top: 10px;
+    left: 15px;
+
+}
+.foto img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+h1 {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.titulos {
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+.titulos li {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin: auto;
+}
+.titulos div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.titulos img {
+    height: 70%;
+    object-fit: contain;  
+}
+
+#inac {
+    padding-left: 10px;
+    
+}
+
+.menu li{
+    display: inline-block;
+}
+
+

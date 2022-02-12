@@ -1,22 +1,32 @@
 body {
     background-color: rgb(95, 13, 74);
     font-family: 'Indie Flower', cursive;
+    
+    
+}
+/* nav style start */
+#nav {
+    width: 100%;
+    
 }
 nav {
     background-color: rgb(129, 125, 126);
-    height: max-content;
-    
+    width: 100%;
+    height: 10vh;
     min-width: max-content;
+    min-height: max-content;
+    box-sizing: border-box;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 2px solid black;
     display: flex;
-    padding: 10px;
-    justify-content: space-between;    
+    padding: 20px;    
+    justify-content: space-between;
+    align-items: center;
 }
 nav div {
     display: inline-block;
-    height: 50px;
+    height: 100%;
 }
 #logoAP {
     height: 100%;
@@ -24,48 +34,41 @@ nav div {
 .nav__ul {
     display: flex;
     justify-content: space-around;
-    width: 200px;
+    width: 20vw;
+    height: 70%;
     margin: 0;
     padding: 0; 
 }
-.nav__ul li {
-    width: 50px;
-    height: 50px;
+.nav__ul li {    
     display: inline-block; 
 }
 .nav__ul li img {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10%;
     height: 100%;
     width: 100%;
-}
-
-}
-.resumen {
-    height: 82vh;
-    border: 2px solid black;
-    border-radius: 5px / 10px;
-    min-height: 300px;
-}
-.container {
-    background-color: rgb(129, 125, 126);
-    position: relative;
-    width: auto;
-    height: 100%;     
-}
-.fondo {
-    height: 50%;
-}
-.fondo img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    min-height: 170px;
-    border-bottom: 2px solid black;
     
 }
-.foto {
+/* nav style end */
+/* resumen style start*/
+.resumen {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px / 10px;
+    background-color: rgb(129, 125, 126);
+    box-sizing: border-box;
+    min-width: 100%;
+}
+.fondo {
+    position: relative;
+}
+#fondo {
+    height: 50vh;
+    width: 100%;  
+    border-bottom: 2px solid black; 
+    object-fit: cover;  
+}
+#foto {
     position: absolute;
     width: auto;
     height: 45%;
@@ -73,14 +76,6 @@ nav div {
     border: 3px solid rgb(226, 23, 84);
     top: 10px;
     left: 15px;
-
-}
-.foto img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
 }
 h1 {
     margin: 0;

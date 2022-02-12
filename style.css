@@ -1,59 +1,45 @@
 body {
     background-color: rgb(95, 13, 74);
-    min-width: 300px;
     font-family: 'Indie Flower', cursive;
 }
 nav {
     background-color: rgb(129, 125, 126);
-    position: relative;
-    height: 14vh;
+    height: max-content;
+    
+    min-width: max-content;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 2px solid black;
-    min-height: 50px;
-    min-width: 270px;
     display: flex;
-    flex-wrap: wrap;
     padding: 10px;
-    
+    justify-content: space-between;    
 }
 nav div {
     display: inline-block;
-    position: relative;
-    height: 60px;
-    width: 50%;   
+    height: 50px;
 }
-nav div img {
-    width: auto;
-    height: 150%;
-    object-fit: cover;
-    object-position: 0 -15px;
+#logoAP {
+    height: 100%;
 }
 .nav__ul {
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    height: 30px;
-    margin: auto;
-    padding-left: 20px;
-   
+    justify-content: space-around;
+    width: 200px;
+    margin: 0;
+    padding: 0; 
 }
 .nav__ul li {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-right: 10px;
-    min-width: 30px;
-    min-height: 30px;
- 
+    width: 50px;
+    height: 50px;
+    display: inline-block; 
 }
 .nav__ul li img {
     border: 1px solid black;
     border-radius: 10px;
-
+    height: 100%;
+    width: 100%;
 }
-#login {
-    border-radius: 20px;
+
 }
 .resumen {
     height: 82vh;

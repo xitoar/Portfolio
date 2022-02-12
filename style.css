@@ -2,10 +2,10 @@ body {
     background-color: rgb(95, 13, 74);
     font-family: 'Indie Flower', cursive;
 }
+/* estilos del nav */
 nav {
     background-color: rgb(129, 125, 126);
-    height: max-content;
-    
+    height: max-content;    
     min-width: max-content;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -39,7 +39,7 @@ nav div {
     height: 100%;
     width: 100%;
 }
-
+/* estilos del nav*/
 }
 .resumen {
     height: 82vh;

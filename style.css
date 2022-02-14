@@ -1,12 +1,16 @@
 body {
     background-color: rgb(95, 13, 74);
     font-family: 'Indie Flower', cursive;
+    margin: 8px;
+    min-width: min-content;
     
     
 }
 /* nav style start */
 #nav {
     width: 100%;
+    min-width: 350px;
+    box-sizing: border-box;
     
 }
 nav {
@@ -14,40 +18,44 @@ nav {
     width: 100%;
     height: 10vh;
     min-width: max-content;
-    min-height: max-content;
+    min-height: 50px;
     box-sizing: border-box;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 2px solid black;
-    display: flex;
-    padding: 20px;    
+    display: flex;       
     justify-content: space-between;
     align-items: center;
 }
 nav div {
     display: inline-block;
     height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 #logoAP {
+    box-sizing: border-box;
     height: 100%;
+    padding: 5px;
 }
 .nav__ul {
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
-    width: 20vw;
     height: 70%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    padding: 5px;
 }
 .nav__ul li {    
-    display: inline-block; 
-}
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}    
 .nav__ul li img {
     border: 1px solid black;
     border-radius: 10%;
     height: 100%;
-    width: 100%;
-    
+    width: 100%;    
 }
 /* nav style end */
 /* resumen style start*/
@@ -57,25 +65,30 @@ nav div {
     border-radius: 5px / 10px;
     background-color: rgb(129, 125, 126);
     box-sizing: border-box;
-    min-width: 100%;
+    min-width: 350px;
+    height: 90vh;     
 }
 .fondo {
+    height: 50vh;
     position: relative;
+   
 }
 #fondo {
     height: 50vh;
     width: 100%;  
     border-bottom: 2px solid black; 
-    object-fit: cover;  
-}
+    object-fit: cover;
+    box-sizing: border-box;
+}  
 #foto {
-    position: absolute;
-    width: auto;
-    height: 45%;
+    margin: 1%;
+    position: absolute;    
+    height: 80%;
     border-radius: 50%;
-    border: 3px solid rgb(226, 23, 84);
-    top: 10px;
-    left: 15px;
+    border: 3px solid gray;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
 }
 h1 {
     margin: 0;

@@ -1,7 +1,7 @@
 body {
     background-color: rgb(95, 13, 74);
     font-family: 'Indie Flower', cursive;
-    margin: 8px;
+    
     min-width: min-content;
     
     
@@ -20,8 +20,8 @@ nav {
     min-width: max-content;
     min-height: 50px;
     box-sizing: border-box;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     border: 2px solid black;
     display: flex;       
     justify-content: space-between;
@@ -62,7 +62,7 @@ nav div {
 .resumen {
     width: 100%;
     border: 2px solid black;
-    border-radius: 5px / 10px;
+    border-radius: 10px / 10px;
     background-color: rgb(129, 125, 126);
     box-sizing: border-box;
     min-width: 350px;
@@ -79,15 +79,16 @@ nav div {
     border-bottom: 2px solid black; 
     object-fit: cover;
     box-sizing: border-box;
+    border-radius: 10px;
 }  
 #foto {
-    margin: 1%;
+    
     position: absolute;    
     height: 80%;
     border-radius: 50%;
     border: 3px solid gray;
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 2%;
     box-sizing: border-box;
 }
 h1 {

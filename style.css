@@ -1,17 +1,13 @@
 body {
     background-color: rgb(95, 13, 74);
-    font-family: 'Indie Flower', cursive;
-    
-    min-width: min-content;
-    
-    
+    font-family: 'Indie Flower', cursive;    
+    min-width: min-content;    
 }
 /* nav style start */
 #nav {
     width: 100%;
     min-width: 350px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 nav {
     background-color: rgb(129, 125, 126);
@@ -68,10 +64,10 @@ nav div {
     min-width: 350px;
     height: 90vh;     
 }
+/* fondo style start */
 .fondo {
     height: 50vh;
-    position: relative;
-   
+    position: relative;   
 }
 #fondo {
     height: 50vh;
@@ -81,8 +77,7 @@ nav div {
     box-sizing: border-box;
     border-radius: 10px;
 }  
-#foto {
-    
+#foto {    
     position: absolute;    
     height: 80%;
     border-radius: 50%;
@@ -91,6 +86,7 @@ nav div {
     left: 2%;
     box-sizing: border-box;
 }
+/* fondo style end*/
 h1 {
     margin: 0;
     margin-left: 15px;
@@ -102,8 +98,7 @@ h1 {
     height: auto;
     margin: 0;
     margin-left: 15px;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 .titulos li {
     display: flex;

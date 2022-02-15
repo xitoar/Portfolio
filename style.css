@@ -1,14 +1,11 @@
 body {
-    background-color: rgb(95, 13, 74);
-    font-family: 'Indie Flower', cursive;    
-    min-width: min-content;    
+    background-color: rgb(245, 12, 12);
+    font-family: 'Indie Flower', cursive;       
+    min-width: min-content;
+    margin: 0;
+    padding: 1%;   
 }
 /* nav style start */
-#nav {
-    width: 100%;
-    min-width: 350px;
-    box-sizing: border-box;    
-}
 nav {
     background-color: rgb(129, 125, 126);
     width: 100%;
@@ -16,8 +13,8 @@ nav {
     min-width: max-content;
     min-height: 50px;
     box-sizing: border-box;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 1%;
+    border-radius: 3% / 15%;
     border: 2px solid black;
     display: flex;       
     justify-content: space-between;
@@ -26,7 +23,7 @@ nav {
 nav div {
     display: inline-block;
     height: 100%;
-    padding: 5px;
+    padding: 1%;
     box-sizing: border-box;
 }
 #logoAP {
@@ -40,12 +37,10 @@ nav div {
     height: 70%;
     margin: 0;
     padding: 0;
-    padding: 5px;
 }
 .nav__ul li {    
     display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 5%
 }    
 .nav__ul li img {
     border: 1px solid black;
@@ -58,11 +53,13 @@ nav div {
 .resumen {
     width: 100%;
     border: 2px solid black;
-    border-radius: 10px / 10px;
+    border-radius: 3%;
     background-color: rgb(129, 125, 126);
     box-sizing: border-box;
     min-width: 350px;
-    height: 90vh;     
+    height: 87vh;
+    margin-bottom: 1%;
+    min-height: max-content;   
 }
 /* fondo style start */
 .fondo {
@@ -75,7 +72,7 @@ nav div {
     border-bottom: 2px solid black; 
     object-fit: cover;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 3% / 5%;
 }  
 #foto {    
     position: absolute;    
@@ -87,43 +84,65 @@ nav div {
     box-sizing: border-box;
 }
 /* fondo style end*/
-h1 {
+/*info style start*/
+.info {
+    box-sizing: border-box;
+    padding: 1%;
+    height: 35vh;
+    width: 100%;
+    min-width: max-content;
+    min-height: max-content;
+}
+h1 {    
     margin: 0;
-    margin-left: 15px;
-    margin-top: 10px;
-    font-size: 35px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 6vh;
+    text-align: center;
+    width: 100%;
+      
 }
 .titulos {
-    width: auto;
-    height: auto;
+    padding-left: 5%;
     margin: 0;
-    margin-left: 15px;
-    font-size: 20px;    
+    list-style-type: none;
+    height: max-content;    
 }
 .titulos li {
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 50px;
-    margin: auto;
+    display: flex;    
+    font-size: 5vw;
+    height: 8vh;
+    align-items: center;   
 }
-.titulos div {
-    display: flex;
-    align-items: center;
-    height: 50px;
+.titulos img {    
+    padding-left: 5%;
+    height: 100%;
 }
-.titulos img {
-    height: 70%;
-    object-fit: contain;  
-}
-
 #inac {
-    padding-left: 10px;
-    
+    height: 70%;     
 }
-
+.menu {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    font-size: 2vh;
+    margin-top: 2%;
+    box-sizing: border-box;
+}
+.menu ul {
+    margin: 0;
+    padding-left: 3%;
+}
+h3 {
+    margin: 0;
+    width: max-content;
+}
 .menu li{
     display: inline-block;
+    margin: 0;
+    
 }
+/* info style end */
+/* resumen style end */
 
 

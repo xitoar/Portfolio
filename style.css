@@ -63,11 +63,11 @@ nav div {
 }
 /* fondo style start */
 .fondo {
-    height: 50vh;
+    height: 40vh;
     position: relative;   
 }
 #fondo {
-    height: 50vh;
+    height: 40vh;
     width: 100%;  
     border-bottom: 2px solid black; 
     object-fit: cover;
@@ -88,7 +88,7 @@ nav div {
 .info {
     box-sizing: border-box;
     padding: 1%;
-    height: 35vh;
+    height: 45vh;
     width: 100%;
     min-width: max-content;
     min-height: max-content;
@@ -97,7 +97,7 @@ h1 {
     margin: 0;
     padding-top: 10px;
     box-sizing: border-box;
-    font-size: 6vh;
+    font-size: 8vh;
     text-align: center;
     width: 100%;
       
@@ -109,10 +109,11 @@ h1 {
     height: max-content;    
 }
 .titulos li {
+    width: 100%;
     display: flex;    
-    font-size: 5vw;
+    font-size: 5vh;
     height: 8vh;
-    align-items: center;   
+    align-items: center; 
 }
 .titulos img {    
     padding-left: 5%;
@@ -125,7 +126,7 @@ h1 {
     display: flex;
     width: 100%;
     padding-left: 5%;
-    font-size: 2vh;
+    font-size: 3vh;
     margin-top: 2%;
     box-sizing: border-box;
 }
@@ -140,6 +141,7 @@ h3 {
 .menu li{
     display: inline-block;
     margin: 0;
+    width: max-content;
     
 }
 /* info style end */

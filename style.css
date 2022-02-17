@@ -99,8 +99,7 @@ h1 {
     box-sizing: border-box;
     font-size: 8vh;
     text-align: center;
-    width: 100%;
-      
+    width: 100%;      
 }
 .titulos {
     padding-left: 5%;
@@ -113,7 +112,8 @@ h1 {
     display: flex;    
     font-size: 5vh;
     height: 8vh;
-    align-items: center; 
+    align-items: center;
+    flex-wrap: wrap;
 }
 .titulos img {    
     padding-left: 5%;
